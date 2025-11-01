@@ -4,7 +4,7 @@ from django.shortcuts import render, get_object_or_404
 
 
 def home(reqest):
-    return render(reqest, "item.html")
+    return render(reqest, "template.html")
 
 
 def get_items(reqest):
